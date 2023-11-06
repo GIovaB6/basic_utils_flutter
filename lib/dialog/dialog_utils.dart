@@ -1,6 +1,3 @@
-
-import 'package:basic_utils_flutter/localization/app_localization.dart';
-import 'package:basic_utils_flutter/routes/navigator_service.dart';
 import 'package:basic_utils_flutter/app_export.dart';
 
 import 'package:flutter/material.dart';

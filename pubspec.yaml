@@ -2,6 +2,7 @@ name: basic_utils_flutter
 description: Basic utils for flutter_project (AppRoutes-Localization-Dialogs-Validator)
 version: 0.0.3
 homepage:
+repository: https://github.com/GIovaB6/basic_utils_flutter
 
 environment:
   sdk: '>=3.1.0 <4.0.0'
