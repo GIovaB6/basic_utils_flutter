@@ -1,4 +1,5 @@
 
+import 'package:basic_utils_flutter/localization/app_localization.dart';
 import 'package:basic_utils_flutter/routes/navigator_service.dart';
 import 'package:basic_utils_flutter/app_export.dart';
 
@@ -241,8 +242,8 @@ class DialogUtils {
 
     }
     Dialogs.materialDialog(
-        msg: 'logout_msg' ,
-        title: 'logout_title' ,
+        msg: 'logout_msg'.tr ,
+        title: 'logout_title'.tr ,
         context: context,
         actions: [
           IconsOutlineButton(
@@ -250,7 +251,7 @@ class DialogUtils {
               Navigator.of(context).pop();
               // Navigator.of(dialogContext!).pop();
             },
-            text: 'lbl_cancel' ,
+            text: 'lbl_cancel'.tr ,
             iconData: Icons.cancel_outlined,
             textStyle: TextStyle(color: Colors.grey),
             iconColor: Colors.grey,
