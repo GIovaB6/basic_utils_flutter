@@ -6,6 +6,7 @@ class AppRoutes {
   static Map<String, WidgetBuilder> get routes => {
 
 
+
         //***************************************************************************************
         //* Simple Screen Builder
         // myScreen: MyScreen.builder,
