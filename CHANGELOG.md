@@ -1,3 +1,7 @@
+## 0.0.6
+
+* Fixed missing import navigator service
+
 ## 0.0.5
 
 * Fixed route's error 
