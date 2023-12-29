@@ -1,3 +1,7 @@
+## 0.0.7
+
+* Rename a bad constant_color
+
 ## 0.0.6
 
 * Fixed missing import navigator service

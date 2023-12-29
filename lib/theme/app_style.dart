@@ -3,7 +3,7 @@ import 'package:basic_utils_flutter/app_export.dart';
 
 class AppStyle {
   static TextStyle txtSFProTextBold10 = TextStyle(
-    color: ColorConstant.teal500,
+    color: BadColorConstant.teal500,
     fontSize: getFontSize(
       10,
     ),
@@ -12,7 +12,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplayRegular17 = TextStyle(
-    color: ColorConstant.blueGray900,
+    color: BadColorConstant.blueGray900,
     fontSize: getFontSize(
       17,
     ),
@@ -20,9 +20,8 @@ class AppStyle {
     fontWeight: FontWeight.w400,
   );
 
-
   static TextStyle txtSFProDisplayRegular13LightBlue = TextStyle(
-    color: ColorConstant.lightBlue,
+    color: BadColorConstant.lightBlue,
     fontSize: getFontSize(
       13,
     ),
@@ -31,7 +30,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProTextRegular16 = TextStyle(
-    color: ColorConstant.blueGray40001,
+    color: BadColorConstant.blueGray40001,
     fontSize: getFontSize(
       16,
     ),
@@ -40,7 +39,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProTextSemibold17 = TextStyle(
-    color: ColorConstant.whiteA700,
+    color: BadColorConstant.whiteA700,
     fontSize: getFontSize(
       17,
     ),
@@ -49,7 +48,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProTextRegular17 = TextStyle(
-    color: ColorConstant.teal500,
+    color: BadColorConstant.teal500,
     fontSize: getFontSize(
       17,
     ),
@@ -58,7 +57,7 @@ class AppStyle {
   );
 
   static TextStyle txtFootnote = TextStyle(
-    color: ColorConstant.blueGray900,
+    color: BadColorConstant.blueGray900,
     fontSize: getFontSize(
       13,
     ),
@@ -67,7 +66,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProTextRegular15 = TextStyle(
-    color: ColorConstant.gray80099,
+    color: BadColorConstant.gray80099,
     fontSize: getFontSize(
       15,
     ),
@@ -76,7 +75,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplayRegular13 = TextStyle(
-    color: ColorConstant.teal500,
+    color: BadColorConstant.teal500,
     fontSize: getFontSize(
       13,
     ),
@@ -85,7 +84,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProTextRegular12 = TextStyle(
-    color: ColorConstant.gray80099,
+    color: BadColorConstant.gray80099,
     fontSize: getFontSize(
       12,
     ),
@@ -94,7 +93,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProTextRegular13 = TextStyle(
-    color: ColorConstant.gray900A3,
+    color: BadColorConstant.gray900A3,
     fontSize: getFontSize(
       13,
     ),
@@ -102,7 +101,7 @@ class AppStyle {
     fontWeight: FontWeight.w400,
   );
   static TextStyle txtSFProTextRegular13Black900 = TextStyle(
-    color: ColorConstant.black90066,
+    color: BadColorConstant.black90066,
     fontSize: getFontSize(
       13,
     ),
@@ -111,7 +110,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProTextRegular13Black = TextStyle(
-    color: ColorConstant.black900,
+    color: BadColorConstant.black900,
     fontSize: getFontSize(
       13,
     ),
@@ -119,9 +118,8 @@ class AppStyle {
     fontWeight: FontWeight.w400,
   );
 
-
   static TextStyle txtSFProDisplayRegular11 = TextStyle(
-    color: ColorConstant.blueGray900,
+    color: BadColorConstant.blueGray900,
     fontSize: getFontSize(
       11,
     ),
@@ -130,7 +128,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplayRegular12 = TextStyle(
-    color: ColorConstant.black900,
+    color: BadColorConstant.black900,
     fontSize: getFontSize(
       12,
     ),
@@ -138,9 +136,8 @@ class AppStyle {
     fontWeight: FontWeight.w400,
   );
 
-
   static TextStyle txtSFProDisplayBold14 = TextStyle(
-    color: ColorConstant.blueGray900,
+    color: BadColorConstant.blueGray900,
     fontSize: getFontSize(
       14,
     ),
@@ -149,7 +146,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplayBold14Gray = TextStyle(
-    color: ColorConstant.gray80099,
+    color: BadColorConstant.gray80099,
     fontSize: getFontSize(
       17,
     ),
@@ -158,7 +155,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplayBold17 = TextStyle(
-    color: ColorConstant.blueGray900,
+    color: BadColorConstant.blueGray900,
     fontSize: getFontSize(
       17,
     ),
@@ -167,7 +164,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProTextRegular17Black900 = TextStyle(
-    color: ColorConstant.black900,
+    color: BadColorConstant.black900,
     fontSize: getFontSize(
       17,
     ),
@@ -176,7 +173,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProTextRegular15Gray80099 = TextStyle(
-    color: ColorConstant.gray80099,
+    color: BadColorConstant.gray80099,
     fontSize: getFontSize(
       13,
     ),
@@ -185,7 +182,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplayRegular12Bluegray900 = TextStyle(
-    color: ColorConstant.blueGray900,
+    color: BadColorConstant.blueGray900,
     fontSize: getFontSize(
       12,
     ),
@@ -194,7 +191,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplayRegular17Bluegray500 = TextStyle(
-    color: ColorConstant.blueGray500,
+    color: BadColorConstant.blueGray500,
     fontSize: getFontSize(
       17,
     ),
@@ -203,7 +200,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProTextSemibold17Black900 = TextStyle(
-    color: ColorConstant.black900,
+    color: BadColorConstant.black900,
     fontSize: getFontSize(
       17,
     ),
@@ -211,7 +208,7 @@ class AppStyle {
     fontWeight: FontWeight.w600,
   );
   static TextStyle txtSFProTextSemibold13Black900 = TextStyle(
-    color: ColorConstant.black900,
+    color: BadColorConstant.black900,
     fontSize: getFontSize(
       13,
     ),
@@ -220,7 +217,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplayBold20 = TextStyle(
-    color: ColorConstant.blueGray900,
+    color: BadColorConstant.blueGray900,
     fontSize: getFontSize(
       20,
     ),
@@ -229,7 +226,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplayRegular17Black90060 = TextStyle(
-    color: ColorConstant.black90060,
+    color: BadColorConstant.black90060,
     fontSize: getFontSize(
       17,
     ),
@@ -238,7 +235,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProTextRegular17Blue600 = TextStyle(
-    color: ColorConstant.blue600,
+    color: BadColorConstant.blue600,
     fontSize: getFontSize(
       17,
     ),
@@ -247,7 +244,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProTextSemibold13 = TextStyle(
-    color: ColorConstant.black900,
+    color: BadColorConstant.black900,
     fontSize: getFontSize(
       13,
     ),
@@ -256,7 +253,7 @@ class AppStyle {
   );
 
   static TextStyle txtRobotoRegular20 = TextStyle(
-    color: ColorConstant.black900,
+    color: BadColorConstant.black900,
     fontSize: getFontSize(
       20,
     ),
@@ -265,7 +262,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplayRegular17Bluegray90001 = TextStyle(
-    color: ColorConstant.blueGray90001,
+    color: BadColorConstant.blueGray90001,
     fontSize: getFontSize(
       17,
     ),
@@ -274,7 +271,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProTextMedium13 = TextStyle(
-    color: ColorConstant.black900,
+    color: BadColorConstant.black900,
     fontSize: getFontSize(
       13,
     ),
@@ -283,7 +280,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplayRegular17Black90066 = TextStyle(
-    color: ColorConstant.black90066,
+    color: BadColorConstant.black90066,
     fontSize: getFontSize(
       17,
     ),
@@ -292,7 +289,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplaySemibold4627 = TextStyle(
-    color: ColorConstant.whiteA700,
+    color: BadColorConstant.whiteA700,
     fontSize: getFontSize(
       46.27,
     ),
@@ -301,7 +298,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProTextMedium10 = TextStyle(
-    color: ColorConstant.gray500,
+    color: BadColorConstant.gray500,
     fontSize: getFontSize(
       10,
     ),
@@ -310,7 +307,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProTextRegular17Gray80099 = TextStyle(
-    color: ColorConstant.gray80099,
+    color: BadColorConstant.gray80099,
     fontSize: getFontSize(
       17,
     ),
@@ -319,7 +316,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplayRegular17Black900 = TextStyle(
-    color: ColorConstant.black900,
+    color: BadColorConstant.black900,
     fontSize: getFontSize(
       17,
     ),
@@ -328,7 +325,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplayRegular17Gray900 = TextStyle(
-    color: ColorConstant.gray900,
+    color: BadColorConstant.gray900,
     fontSize: getFontSize(
       17,
     ),
@@ -337,7 +334,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplaySemibold17 = TextStyle(
-    color: ColorConstant.blueGray90001,
+    color: BadColorConstant.blueGray90001,
     fontSize: getFontSize(
       17,
     ),
@@ -346,7 +343,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProTextRegular17RedA200 = TextStyle(
-    color: ColorConstant.redA200,
+    color: BadColorConstant.redA200,
     fontSize: getFontSize(
       17,
     ),
@@ -355,7 +352,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProTextRegular17RedA200White = TextStyle(
-    color: ColorConstant.whiteA700,
+    color: BadColorConstant.whiteA700,
     fontSize: getFontSize(
       17,
     ),
@@ -364,7 +361,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplaySemibold548 = TextStyle(
-    color: ColorConstant.black900,
+    color: BadColorConstant.black900,
     fontSize: getFontSize(
       5.48,
     ),
@@ -373,7 +370,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplayBold12Gray900a3 = TextStyle(
-    color: ColorConstant.gray900A3,
+    color: BadColorConstant.gray900A3,
     fontSize: getFontSize(
       12,
     ),
@@ -382,7 +379,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplayLight10 = TextStyle(
-    color: ColorConstant.blueGray900,
+    color: BadColorConstant.blueGray900,
     fontSize: getFontSize(
       10,
     ),
@@ -391,7 +388,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplayBold10 = TextStyle(
-    color: ColorConstant.blueGray900,
+    color: BadColorConstant.blueGray900,
     fontSize: getFontSize(
       10,
     ),
@@ -400,7 +397,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplayBold13 = TextStyle(
-    color: ColorConstant.teal500,
+    color: BadColorConstant.teal500,
     fontSize: getFontSize(
       13,
     ),
@@ -409,7 +406,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplayBold34 = TextStyle(
-    color: ColorConstant.blueGray900,
+    color: BadColorConstant.blueGray900,
     fontSize: getFontSize(
       34,
     ),
@@ -418,7 +415,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplayBold12 = TextStyle(
-    color: ColorConstant.blueGray400,
+    color: BadColorConstant.blueGray400,
     fontSize: getFontSize(
       12,
     ),
@@ -427,7 +424,7 @@ class AppStyle {
   );
 
   static TextStyle txtRobotoRegular16 = TextStyle(
-    color: ColorConstant.blueGray40002,
+    color: BadColorConstant.blueGray40002,
     fontSize: getFontSize(
       16,
     ),
@@ -436,7 +433,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplaySemibold14 = TextStyle(
-    color: ColorConstant.gray90001,
+    color: BadColorConstant.gray90001,
     fontSize: getFontSize(
       14,
     ),
@@ -444,16 +441,15 @@ class AppStyle {
     fontWeight: FontWeight.w600,
   );
   static TextStyle txtSFProDisplaySemibold14QR = TextStyle(
-    color: ColorConstant.gray90001,
+    color: BadColorConstant.gray90001,
     fontSize: getFontSize(
       14,
     ),
     fontWeight: FontWeight.w600,
   );
 
-
   static TextStyle txtSFProDisplaySemibold13 = TextStyle(
-    color: ColorConstant.teal500,
+    color: BadColorConstant.teal500,
     fontSize: getFontSize(
       13,
     ),
@@ -462,7 +458,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplayBold34Black900 = TextStyle(
-    color: ColorConstant.black900,
+    color: BadColorConstant.black900,
     fontSize: getFontSize(
       34,
     ),
@@ -471,7 +467,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProTextRegular17LightblueA700 = TextStyle(
-    color: ColorConstant.lightBlueA700,
+    color: BadColorConstant.lightBlueA700,
     fontSize: getFontSize(
       17,
     ),
@@ -480,7 +476,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplaySemibold17Bluegray900 = TextStyle(
-    color: ColorConstant.blueGray900,
+    color: BadColorConstant.blueGray900,
     fontSize: getFontSize(
       17,
     ),
@@ -489,7 +485,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProTextSemibold17Bluegray900 = TextStyle(
-    color: ColorConstant.blueGray900,
+    color: BadColorConstant.blueGray900,
     fontSize: getFontSize(
       17,
     ),
@@ -498,7 +494,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProTextSemibold21Bluegray900 = TextStyle(
-    color: ColorConstant.blueGray900,
+    color: BadColorConstant.blueGray900,
     fontSize: getFontSize(
       24,
     ),
@@ -507,7 +503,7 @@ class AppStyle {
   );
 
   static TextStyle txtSFProDisplayMedium22 = TextStyle(
-    color: ColorConstant.black900,
+    color: BadColorConstant.black900,
     fontSize: getFontSize(
       22,
     ),
