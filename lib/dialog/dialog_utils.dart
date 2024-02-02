@@ -7,11 +7,7 @@ import 'package:material_dialogs/widgets/buttons/icon_button.dart';
 import 'package:material_dialogs/widgets/buttons/icon_outline_button.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-
-
 class DialogUtils {
-
-
   static void showAlertDialog({
     required BuildContext context,
     required String message,
@@ -93,12 +89,6 @@ class DialogUtils {
     return;
   }
 
-
-
-
-
-
-
   static void showDialogPermission({
     required BuildContext context,
     required String message,
@@ -170,7 +160,6 @@ class DialogUtils {
   }
 
   static void showConfirmDialog({
-
     required BuildContext context,
     required String message,
     required String title,
@@ -181,7 +170,9 @@ class DialogUtils {
         color: Colors.white,
         context: context,
         actions: [
-          SizedBox(width: 50,),
+          SizedBox(
+            width: 50,
+          ),
           IconsOutlineButton(
             onPressed: () {
               Navigator.of(context).pop();
@@ -196,12 +187,6 @@ class DialogUtils {
         ]);
     return;
   }
-
-
-
-
-
-
 
   static void showConfirmDialogNoImage({
     required BuildContext context,
@@ -234,13 +219,10 @@ class DialogUtils {
   }) {
     BuildContext? dialogContext = NavigatorService.navigatorKey.currentContext;
     if (dialogContext != null) {
-
-    } else {
-
-    }
+    } else {}
     Dialogs.materialDialog(
-        msg: 'logout_msg'.tr ,
-        title: 'logout_title'.tr ,
+        msg: 'logout_msg'.tr,
+        title: 'logout_title'.tr,
         context: context,
         actions: [
           IconsOutlineButton(
@@ -248,7 +230,7 @@ class DialogUtils {
               Navigator.of(context).pop();
               // Navigator.of(dialogContext!).pop();
             },
-            text: 'lbl_cancel'.tr ,
+            text: 'lbl_cancel'.tr,
             iconData: Icons.cancel_outlined,
             textStyle: TextStyle(color: Colors.grey),
             iconColor: Colors.grey,
@@ -282,5 +264,40 @@ class DialogUtils {
         ]);
   }
 
-
+  static void showDeleteDialog({
+    required BuildContext context,
+    required String title,
+    required String subtitle,
+    required String annulla,
+    required String delete,
+    // required Function() loOugMethod;
+  }) {
+    BuildContext? dialogContext = NavigatorService.navigatorKey.currentContext;
+    if (dialogContext != null) {
+    } else {}
+    Dialogs.materialDialog(
+        msg: subtitle,
+        title: title,
+        context: context,
+        actions: [
+          IconsOutlineButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+              // Navigator.of(dialogContext!).pop();
+            },
+            text: annulla,
+            iconData: Icons.cancel_outlined,
+            textStyle: TextStyle(color: Colors.grey),
+            iconColor: Colors.grey,
+          ),
+          IconsButton(
+            onPressed: () async {},
+            text: delete,
+            iconData: Icons,
+            color: Colors.red,
+            textStyle: TextStyle(color: Colors.white),
+            iconColor: Colors.white,
+          ),
+        ]);
+  }
 }
