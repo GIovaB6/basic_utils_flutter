@@ -1,3 +1,7 @@
+## 0.0.9
+
+* Fixed icons
+
 ## 0.0.8
 
 * Added deleteDialogUtils

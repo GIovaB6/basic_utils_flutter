@@ -293,7 +293,7 @@ class DialogUtils {
           IconsButton(
             onPressed: () async {},
             text: delete,
-            iconData: Icons,
+            iconData: Icons.delete,
             color: Colors.red,
             textStyle: TextStyle(color: Colors.white),
             iconColor: Colors.white,
