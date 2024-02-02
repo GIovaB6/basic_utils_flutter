@@ -1,3 +1,7 @@
+## 0.0.8
+
+* Added deleteDialogUtils
+
 ## 0.0.7
 
 * Rename a bad constant_color
